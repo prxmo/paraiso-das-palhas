@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Paraíso das Palhas🍪</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card{
+    background: white;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 15px 0 10px 0;
+}
+
+.card p{
+    color: #555;
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+button{
+    background: #2ecc71;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #27ae60;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Paraíso das Palhas 🍪</h1>
+
+<div class="container">
+
+<div class="card">
+
+<img src="https://i.imgur.com/8yKQF4O.jpg">
+
+<h2>Palha Italiana de Ninho com Morango</h2>
+
+<p>
+Base branca com leite ninho bem cremosa,  
+biscoito maisena e pedaços de morango.
+</p>
+
+<div class="preco">R$10,00</div>
+
+<button>Comprar</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
